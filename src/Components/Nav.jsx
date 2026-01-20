@@ -548,7 +548,7 @@ const Nav = () => {
               </li>
               <li>
                 <Link to="/" className="dropdown__link">
-                  Teams
+                  Partners
                 </Link>
               </li>
             </ul>
