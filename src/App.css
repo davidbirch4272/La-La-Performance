@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+[data-aos="custom-fade-from-left"] {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 1s ease;
+}
+
+[data-aos="custom-fade-from-left"].aos-animate {
+  opacity: 1;
+  transform: translateX(calc(50vw - 250px)); 
+}
+
+[data-aos="custom-fade-from-right"] {
+  opacity: 0;
+  transform: translateX(100%);
+  transition: all 1s ease;
+}
+
+[data-aos="custom-fade-from-right"].aos-animate {
+  opacity: 1;
+  transform: translateX(calc(-50vw + 250px)); 
+}

@@ -1,0 +1,14 @@
+.container {
+    height: 67vh;
+    margin: 0 auto;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.row {
+    height: 67vh;
+
+}

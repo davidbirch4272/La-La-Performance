@@ -1,0 +1,117 @@
+.container__about {
+height: 100%;
+max-height: 68vh;    
+padding: 16px 60px;
+flex: 1;
+
+}
+.row__about {
+  width: 100%;
+  flex: 1;
+}
+
+.about__title {
+    color: black;
+}
+
+.AboutMe__wrapper {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.picture {
+  width: 50%;
+  min-width: 300px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.picture img {
+  width: 100%;
+  max-width: 500px;
+  height: 316px;     
+  object-fit: cover;  
+  display: block;
+}
+
+.AboutMe__text {
+  width: 50%;
+  max-width: 700px;
+  text-align: left;
+  margin-top: 8px;
+}
+
+.about__para {
+    margin-bottom: 16px;
+}
+
+@media (max-width: 862px) {
+
+.container__about {
+  max-height: 100vh;
+}
+
+}
+
+@media (max-width: 707px) {
+
+.container__about {
+  max-height: 110vh;
+}
+
+}
+
+@media (max-width: 647px) {
+
+.container__about {
+  max-height: 130vh;
+}
+
+}
+
+
+@media (max-width: 486px) {
+
+.container__about {
+  max-height: 140vh;
+}
+
+}
+
+@media (max-width: 424px) {
+
+.container__about {
+  max-height: 150vh;
+}
+
+}
+
+@media (max-width: 417px) {
+
+.container__about {
+  max-height: 160vh;
+}
+
+}
+
+@media (max-width: 390px) {
+
+.container__about {
+  max-height: 170vh;
+}
+
+}
+
+
+@media (max-width: 363px) {
+
+.container__about {
+  max-height: 185vh;
+}
+
+}
