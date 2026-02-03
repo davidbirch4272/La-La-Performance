@@ -6,9 +6,9 @@ import "./nav.css";
 
 const Nav = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [mobileSubOpen, setMobileSubOpen] = useState(null);
+  //const [mobileSubOpen, setMobileSubOpen] = useState(null);
   const [openSubmenus, setOpenSubmenus] = useState({});
-  const [isOpen, setIsOpen] = useState(false);
+  //const [isOpen, setIsOpen] = useState(false);
 
   const openMenu = () => {
     document.body.classList.add("menu--open");
